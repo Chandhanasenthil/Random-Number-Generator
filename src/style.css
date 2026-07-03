@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.btn{
+    padding: 10px 10px;
+    margin: 10px;
+    gap: 10px;
+    background-color: rgb(9, 9, 25);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+.container{
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgb(106, 103, 103);
+}
+.count{
+    text-align: center;
+    margin-top: 10px;
+}
+.container:hover{
+    box-shadow: 0px 0px 10px 0px rgba(27, 27, 28, 0.5);
+}
